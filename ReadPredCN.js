@@ -30,7 +30,6 @@ var ReadPredCN={
 				}
 			}
 		}
-		rawFile.send(null);
 		return allText;
 	}
 }
