@@ -1,8 +1,7 @@
 
 var ReadPredCN={
 	obj:"",
-	JSONpath:"http://lovelive.oss-cn-beijing.aliyuncs.com/Data/EventCard.txt",
-	init:function(){
+		init:function(){
 		var text = ReadPredCN.readTextFile(ReadPredCN.JSONpath);
 		this.obj = JSON.parse(text);
 	},
