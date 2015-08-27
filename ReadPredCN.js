@@ -1,10 +1,7 @@
 
 var ReadPredCN={
 	obj:"",
-		init:function(){
-		var text = ReadPredCN.readTextFile(ReadPredCN.JSONpath);
-		this.obj = JSON.parse(text);
-	},
+		init:function()
 	Read:function(num){
 		var obj = this.obj;
 		if (obj.EventGlobal[1][0] == "0")
